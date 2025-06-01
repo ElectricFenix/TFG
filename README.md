@@ -42,7 +42,7 @@ Contiene archivos de configuración de servicios del sistema (systemd):
 - `gunicorn.service`: Servicio para ejecutar el backend de la aplicación con Gunicorn.
 - `nfc_reader.service`: Servicio para ejecutar el lector NFC al iniciar el sistema.
 
-### nfc/script_nfc.py
+### /nfc/script_nfc.py
 Script principal que gestiona la lectura de tarjetas NFC y la comunicación con el backend.
 
 ## Requisitos
