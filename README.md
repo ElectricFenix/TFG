@@ -61,7 +61,7 @@ Cada carpeta relevante contiene su propio archivo `requirements.txt` para instal
 
 ## Autor
 
-José Manuel Romeral 
-Grado en Administración de Sistemas Informaticos y Redes 
+José Manuel Romeral \n
+Grado en Administración de Sistemas Informaticos y Redes \n
 IES Carmén Martín Gaite – 2025
 
