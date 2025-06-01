@@ -63,5 +63,5 @@ Cada carpeta relevante contiene su propio archivo `requirements.txt` para instal
 
 José Manuel Romeral  
 Grado en Administración de Sistemas Informaticos y Redes  
-IES Carmén Martín Gaite – 2025
+IES Carmen Martín Gaite – 2025
 
