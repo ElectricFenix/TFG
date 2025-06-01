@@ -43,7 +43,7 @@ Contiene archivos de configuración de servicios del sistema (systemd):
 - `nfc_reader.service`: Servicio para ejecutar el lector NFC al iniciar el sistema.
 
 ### /nfc/script_nfc.py
-Script principal que gestiona la lectura de tarjetas NFC y la comunicación con el backend.
+Script principal que gestiona la lectura de tarjetas NFC y el registro del acceso en la base de datos.
 
 ## Requisitos
 
