@@ -22,7 +22,10 @@ A continuación se detalla la estructura de carpetas y archivos relevantes inclu
 Contiene todos los archivos de la aplicación web:
 - Backend y frontend de la interfaz de administración.
 - Lógica de visualización y gestión de accesos.
-- Requiere `requirements.txt` para instalar las dependencias necesarias.
+- `requirements.txt` contiene las dependencias necesarias.
+- Herramientas para la creación y gestión de la base de datos:
+  - `create_database.py`: facilita la creación de la base de datos.
+  - `insert_data.py`: simplifica la inserción de datos iniciales.
 
 ### /dnsmasq
 Contiene el archivo de configuración del servidor DNS:
