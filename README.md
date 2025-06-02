@@ -23,7 +23,7 @@ Contiene todos los archivos de la aplicación web:
 - Backend y frontend de la interfaz de administración.
 - Lógica de visualización y gestión de accesos.
 - `requirements.txt` contiene las dependencias necesarias.
-- Herramientas para la creación y gestión de la base de datos:
+- Scripts para la creación e inserción de la base de datos:
   - `create_database.py`: facilita la creación de la base de datos.
   - `insert_data.py`: simplifica la inserción de datos iniciales.
 
@@ -61,8 +61,9 @@ Cada carpeta relevante contiene su propio archivo `requirements.txt` para instal
 
 1. Instalar todas las dependencias necesarias utilizando los archivos `requirements.txt`.
 2. Asegurarse de que `dnsmasq` y `nginx` estén correctamente configurados y habilitados.
-3. Configurar los servicios en systemd (`gunicorn.service` y `nfc_reader.service`) para que se inicien automáticamente al arrancar el sistema.
-4. Acceder a la aplicación web desde otro dispositivo a través del navegador.
+3. Crear la base de datos y realizar la inserción de datos iniciales.
+4. Configurar los servicios en systemd (`gunicorn.service` y `nfc_reader.service`) para que se inicien automáticamente al arrancar el sistema.
+5. Acceder a la aplicación web desde otro dispositivo a través del navegador.
 
 ## Autor
 
