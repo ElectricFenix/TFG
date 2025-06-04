@@ -66,7 +66,7 @@ try:
         uid = pn532.read_passive_target(timeout=0.5)
         if uid:
             uid_str = ''.join('{:02X}'.format(i) for i in uid)
-            print("📡 UID leído:", uid_str)
+            print("UID leído:", uid_str)
 
             acceso = comprobar_uid(uid_str)
 
