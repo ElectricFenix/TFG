@@ -151,8 +151,8 @@ def dashboard():
                     db.session.commit()
                     flash('¡Aula eliminada correctamente!', 'success')
 
-            elif 'delete_reserva_id' in request.form:
-                reserva_id = request.form['delete_reserva_id']
+            elif 'delete_reserva_id_admin' in request.form:
+                reserva_id = request.form['delete_reserva_id_admin']
                 reserva = Reserva.query.get(reserva_id)
                 if reserva:
                     db.session.delete(reserva)
