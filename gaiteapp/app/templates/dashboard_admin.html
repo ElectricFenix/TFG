@@ -182,7 +182,7 @@
                     <td>{{ aula.descripcion }}</td>
                     <td>
                         <form method="post" style="display:inline-block;" onsubmit="return confirm('¿Estás seguro de eliminar este aula?');">
-                            <input type="hidden" name="delete_aula_id" value="{{ aula.id }}">
+                            <input type="hidden" name="delete_aula_id_admin" value="{{ aula.id }}">
                             <button type="button" class="btn btn-danger btn-sm" data-bs-toggle="modal" data-bs-target="#confirmarEliminarAulaModal" data-aula-id="{{ aula.id }}"> 
                                 Eliminar 
                             </button>
